@@ -1,0 +1,17 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "YaBi",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {
+    "preferences": {
+      "CameraUsesGeolocation": "false"
+    }
+  }
+}

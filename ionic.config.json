@@ -1,0 +1,8 @@
+{
+  "name": "YaBi",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}
