@@ -1,0 +1,58 @@
+ion-header{
+    background: var(--ion-color-light);
+    ion-list{
+        background: var(--ion-color-primary);
+        border-radius:0 0 20px 20px ;
+        padding-bottom: 7vh;
+        ion-item{
+            ion-label{
+                font-weight: bold;
+                font-size: 1.2rem;
+                letter-spacing: 0.5px;
+               
+            }
+            // ion-avatar{
+            //     background: rgb(175, 57, 57);
+            // }
+        }
+    }
+    .marine{
+margin: 0 8px;
+ion-searchbar{
+    --border-raduis:20px;
+    margin-top: -20px;
+   
+   
+}
+    }
+}
+ion-content{
+    --background: var(--var-color-light);
+    .title{
+       font-weight: bold;
+       font-size: 1.2rem;
+       color: var(--ion-color-dark); 
+    }
+    ion-slides{
+        ion-card{
+            height: 30vh;
+            width: 100%;
+            border-radius: 10px;
+            ion-card-header{
+                ion-label,p{
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                     color: var(--ion-color-dark);
+                    
+                }
+                
+                
+            }
+            ion-card-content{
+                img{
+                    height: 20vh;
+                }
+            }
+        }
+    }
+}

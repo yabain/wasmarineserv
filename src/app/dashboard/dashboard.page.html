@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Dashboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card color="primary" >
+    <h1>Ship Name: {{ shipName }}</h1>
+    <h2>Ship Size: {{ shipSize }}</h2>
+  </ion-card>
+  
+  <ion-card color="primary">
+    <h3>Hold:</h3>
+    <ion-item *ngFor="let holdItem of holds">
+      <h1>name: {{ holdItem.name }}</h1>
+      <h1>Quantity: {{ holdItem.quantity }}</h1>
+      <h1>Weight: {{ holdItem.weight }}</h1>
+      <h1>Price: {{ holdItem.price }}</h1> 
+    </ion-item>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,54 @@
+ion-header{
+ padding: auto;
+ ion-toolbar{
+  padding: auto;
+  ion-title{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+ }
+}
+.body{
+  display: flex;
+  justify-content: center;
+  section {
+    width: 70%;
+    margin: auto;
+    ion-label{
+      font-size: 1.2rem;
+    }
+  }
+  h2{
+    font-size: 1.2rem;
+    text-align: center;
+  };
+  p{
+    font-size: 1.2rem;
+  }
+}
+.para {
+  margin-bottom: 20px;
+  ion-icon{
+    border-radius: 50%;
+    bottom: 15px;
+  }
+  
+    }
+   ion-icon{
+    border-radius: 50%;
+    font-size: 8.5rem;
+    
+   }
+   .bg-img{
+    padding: 1px;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../assets/navire2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ion-card{
+   top:100px
+}
+
+

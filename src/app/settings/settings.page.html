@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="logo-docker"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Listes des produits</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div class="bg-img">
+    <div>
+      <h1><b>Aujourd'hui</b></h1>
+      <h5>{{ currentDate }}</h5>
+    </div>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Produits</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <ion-list>
+          <ion-item *ngFor="let product of products"  (click)="openModal()">
+            <div class="category-container" style="width: 100%; display: flex; align-items: center;">
+              <img src="{{ product.image }}" alt="{{ product.name }}" class="category-image">
+              <span>{{ product.name }}</span>
+              <span>{{ product.quantites }}</span>
+              <span>{{ product.prix }}</span>
+              <span>{{ product.poids }}</span>
+            
+            </div>
+          </ion-item>
+        </ion-list>
+        <ion-icon name="add" (click)="addProduct()" slot="end" color="primary">ajouter un produit</ion-icon>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

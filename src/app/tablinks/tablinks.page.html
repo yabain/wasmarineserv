@@ -1,0 +1,37 @@
+<ion-content>
+  <ion-tabs #tabs (ionTabsDidChange)="setCurebtTab()">
+    <ion-tab-bar slot="bottom">
+      <!-- <ion-tab-button tab="home">
+        <ion-icon [name]=" selectedTab=='home'? 'person' :'rose-outline'"></ion-icon>
+        <ion-label>home</ion-label>
+      </ion-tab-button> -->
+      <ion-tab-button tab="profil">
+        <ion-icon [name]=" selectedTab=='profil'? 'person' :'person-circle-outline'"></ion-icon>
+        <ion-label>Profile</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="dashboard">
+        <ion-icon [name]= " selectedTab=='Dashboard'? 'easel' :'easel-outline'"></ion-icon>
+        <ion-label>Dashboard</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="settings">
+        <ion-icon [name]=" selectedTab=='settings'? 'settings' :'settings-outline'"></ion-icon>
+        <ion-label>settings</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="message">
+        <ion-icon [name]=" selectedTab=='chatbox'? 'chatbox' :'chatbox-ellipses-outline'"></ion-icon>
+        <ion-label>message</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="logo-docker">
+        <ion-icon [name]="'logo-docker'"></ion-icon>
+        <ion-label>Navire</ion-label>
+      </ion-tab-button>
+
+
+    </ion-tab-bar>
+    
+    
+  </ion-tabs>
+  
+</ion-content>

@@ -1,0 +1,46 @@
+<ion-header class="cale">
+  <ion-toolbar color="primary" >
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="logo-docker"></ion-back-button>
+    </ion-buttons>
+    <ion-title >Liste des cales</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card  style="height:  180px;" (click)="goToSettings(1)">
+      <ion-card-header color="primary">cale1</ion-card-header>
+          <p>Nombre total de produits : {{ hold1.totalProducts }}</p>
+        </ion-card>
+
+        <ion-card  style="height:  180px;" (click)="goToSettings(2)">
+          <ion-card-header color="primary">cale3</ion-card-header>
+          <p>Nombre total de produits : {{ hold3.totalProducts }}</p>
+        </ion-card>
+
+        <ion-card  style="height:  180px;" (click)="goToSettings(3)">
+          <ion-card-header color="primary">cale5</ion-card-header>
+          <p>Nombre total de produits : {{ hold5.totalProducts }}</p>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="6">
+        <ion-card  style="height:  180px;" (click)="goToSettings(4)">
+          <ion-card-header color="primary">cale2</ion-card-header>
+          <p>Nombre total de produits : {{ hold2.totalProducts }}</p>
+        </ion-card>
+
+        <ion-card  style="height:  180px;" (click)="goToSettings(5)">
+          <ion-card-header color="primary">cale4</ion-card-header>
+          <p>Nombre total de produits : {{ hold4.totalProducts }}</p>
+        </ion-card>
+        <ion-card  style="height: 180px;" (click)="goToSettings(6)">
+          <ion-card-header color="primary">cale 6</ion-card-header>
+          <p>Nombre total de produits : {{ hold6.totalProducts }}</p>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

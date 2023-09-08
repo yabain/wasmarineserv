@@ -1,0 +1,38 @@
+.bg-img{
+    padding: 1px;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../assets/navire2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+}
+h5{
+    color: #e8e8e8;
+    margin-left: 20px;
+    margin-top: -7px;
+    font-size: medium;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.category-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .category-image {
+    width: 50px; /* Ajustez la taille de l'image selon vos besoins */
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%; /* Applique un bord arrondi */
+    margin-right: 10px; /* Ajoute une marge à droite pour créer de l'espace entre l'image et le texte de la catégorie */
+  }
+  ion-icon {
+    
+    font-size: 2.5rem; /* Taille de l'icône */
+   
+  }
