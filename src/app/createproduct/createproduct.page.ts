@@ -27,18 +27,13 @@ productpoids: number;
       return;
     }
   
-    // Effectuer les opérations de création de produit ici
-    // Par exemple, vous pouvez ajouter le nouveau produit dans une liste ou le sauvegarder dans une base de données
-  
-    // Afficher un message de succès
+    
     const toast = await this.toastCtrl.create({
       message: 'Produit créé avec succès',
       duration: 2000,
       position: 'bottom'
     });
     toast.present();
-  
-    // Rediriger vers la page précédente
     this.navCtrl.pop();
   }
 

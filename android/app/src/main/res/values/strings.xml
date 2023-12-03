@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">YaBi</string>
-    <string name="title_activity_main">YaBi</string>
-    <string name="package_name">uiux.yabi.app</string>
-    <string name="custom_url_scheme">uiux.yabi.app</string>
-</resources>

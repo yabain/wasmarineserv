@@ -12,6 +12,8 @@ import { ProfilPage } from './profil/profil.page';
 import { HttpClientModule } from '@angular/common/http';
 import { SettingsPageModule } from './settings/settings.module';
 import { MessagePage } from './message/message.page';
+import { AuhtPageModule } from './auht/auht.module';
+
 
 // eslint-disable-next-line prefer-arrow/prefer-arrow-functions
 // export function createTranslateLoader(http: HttpClient) {
@@ -30,8 +32,9 @@ import { MessagePage } from './message/message.page';
    AppRoutingModule,
    HttpClientModule,
    SettingsPageModule,
-   RouterModule
-  
+   RouterModule,
+   AuhtPageModule,
+   
    
   ],
   exports:[],

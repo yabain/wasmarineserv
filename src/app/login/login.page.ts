@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup,FormBuilder,Validators} from '@angular/forms';
+import { AuthService } from '../auth.service';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-login',
   templateUrl: './login.page.html',
@@ -8,7 +10,9 @@ import { FormGroup,FormBuilder,Validators} from '@angular/forms';
 export class LoginPage implements OnInit {
 
   ionicForm :FormGroup
-  constructor(public formBuilder:FormBuilder) { }
+  constructor(public formBuilder:FormBuilder,
+    private auth:AuthService,
+    private router:Router) { }
 
   ngOnInit() {
     this.ionicForm = this.formBuilder.group({
@@ -36,6 +40,10 @@ export class LoginPage implements OnInit {
       return console.log('Please provide all the required values!');
     }
   };
+  onLogin(){
+    this.auth.login();
+    this.router.navigateByUrl('/logo-docker');
+  }
  
   }
 

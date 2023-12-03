@@ -5229,7 +5229,7 @@ module.exports = function (object, key, value) {
 var $ = __webpack_require__(/*! ../internals/export */ 664);
 var call = __webpack_require__(/*! ../internals/function-call */ 9836);
 var IS_PURE = __webpack_require__(/*! ../internals/is-pure */ 2074);
-var FunctionName = __webpack_require__(/*! ../internals/function-name */ 2891);
+var FunctionName = __webpack_require__(/*! ../internals/function-name */ 4335);
 var isCallable = __webpack_require__(/*! ../internals/is-callable */ 4513);
 var createIteratorConstructor = __webpack_require__(/*! ../internals/create-iterator-constructor */ 4298);
 var getPrototypeOf = __webpack_require__(/*! ../internals/object-get-prototype-of */ 5456);
@@ -5590,7 +5590,7 @@ module.exports = NATIVE_BIND ? call.bind(call) : function () {
 
 /***/ }),
 
-/***/ 2891:
+/***/ 4335:
 /*!*********************************************************!*\
   !*** ./node_modules/core-js/internals/function-name.js ***!
   \*********************************************************/
@@ -7037,7 +7037,7 @@ var createNonEnumerableProperty = __webpack_require__(/*! ../internals/create-no
 var setGlobal = __webpack_require__(/*! ../internals/set-global */ 5123);
 var inspectSource = __webpack_require__(/*! ../internals/inspect-source */ 6073);
 var InternalStateModule = __webpack_require__(/*! ../internals/internal-state */ 979);
-var CONFIGURABLE_FUNCTION_NAME = (__webpack_require__(/*! ../internals/function-name */ 2891).CONFIGURABLE);
+var CONFIGURABLE_FUNCTION_NAME = (__webpack_require__(/*! ../internals/function-name */ 4335).CONFIGURABLE);
 
 var getInternalState = InternalStateModule.get;
 var enforceInternalState = InternalStateModule.enforce;

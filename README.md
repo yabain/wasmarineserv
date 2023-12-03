@@ -1,8 +1,8 @@
-<h1 align="center">YaBi</h1>
+<h1 align="center">was marine serve</h1>
 
 <p align="center">
   <br>
-  <img src="./src/assets/logo_yabi00.png" alt="YaBi logo" width="100%" height="100%"/>
+  <img src="./src/assets/logo2.png" alt="marine logo" width="100%" height="100%"/>
   <br><br>
   <i>YaBi is your event platform available in android, iOS and web versions.,
     <br>It's a mobile application that allows you to organise and manage your events in complete peace of mind, with an overview of all your event statistics.</i>
