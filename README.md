@@ -2,10 +2,10 @@
 
 <p align="center">
   <br>
-  <img src="./src/assets/logo.png" alt="marine logo" width="90%" height="90%"/>
+  <img src="./src/assets/logo.png" alt="marine logo" width="50%" height="50%"/>
   <br><br>
-  <i>YaBi is your event platform available in android, iOS and web versions.,
-    <br>It's a mobile application that allows you to organise and manage your events in complete peace of mind, with an overview of all your event statistics.</i>
+  <i>Wasmarine offre un service de qualité à ses clients grâce à notre réseau unique.,
+    <br>fournit des services indépendants à des points stratégiques de la chaîne d'approvisionnement de ses clients.</i>
   <br>
 </p>
 
