@@ -2,7 +2,7 @@
 
 <p align="center">
   <br>
-  <img src="./src/assets/logo.png" alt="marine logo" width="50%" height="50%"/>
+  <img src="./src/assets/logo.png" alt="marine logo" width="25%" height="25%"/>
   <br><br>
   <i>Wasmarine offre un service de qualité à ses clients grâce à notre réseau unique.,
     <br>fournit des services indépendants à des points stratégiques de la chaîne d'approvisionnement de ses clients.</i>
@@ -31,19 +31,16 @@ Get started with Angular CLI, learn the fundamentals and explore advanced topics
 - [Workspace configuration](https://angular.io/guide/workspace-config)
 - [Schematics](https://angular.io/guide/schematics)
 
-
 Get started with Ionic, learn the fundamentals and explore advanced topics on documentation website.
 
-* [Ionic Documentation](https://ionicframework.com/docs/)
-* [Ionic Forum](https://forum.ionicframework.com/)
-* [Ionicons](http://ionicons.com/)
-* [Stencil](https://stenciljs.com/)
-* [Stencil Worldwide Slack](https://stencil-worldwide.herokuapp.com/)
-* [Capacitor](https://capacitor.ionicframework.com/)
-
+- [Ionic Documentation](https://ionicframework.com/docs/)
+- [Ionic Forum](https://forum.ionicframework.com/)
+- [Ionicons](http://ionicons.com/)
+- [Stencil](https://stenciljs.com/)
+- [Stencil Worldwide Slack](https://stencil-worldwide.herokuapp.com/)
+- [Capacitor](https://capacitor.ionicframework.com/)
 
 ## Development Setup
-
 
 ### Prerequisites
 
@@ -75,12 +72,6 @@ Start project
 ionic serve --l
 ```
 
-
-
-
 **Yaba-In, your software solution compagny.**
 
-
-
 © 2022 Yaba-In
-
