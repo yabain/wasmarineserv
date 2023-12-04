@@ -7,6 +7,11 @@
   <i>Wasmarine offre un service de qualité à ses clients grâce à notre réseau unique.,
     <br>fournit des services indépendants à des points stratégiques de la chaîne d'approvisionnement de ses clients.</i>
   <br>
+  <br> 
+   <img src="./src/assets/image1.JPG" alt="nom des navires" width="25%" height="25%"/>
+   <img src="./src/assets/image2.JPG" alt="nom des navires" width="25%" height="25%"/>
+   <img src="./src/assets/image3.JPG" alt="nom des navires" width="25%" height="25%"/>
+   <img src="./src/assets/image4.JPG" alt="nom des navires" width="25%" height="25%"/>
 </p>
 
 <p align="center">By:
@@ -73,5 +78,3 @@ ionic serve --l
 ```
 
 **Yaba-In, your software solution compagny.**
-
-© 2022 Yaba-In
