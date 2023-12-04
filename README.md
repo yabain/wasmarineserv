@@ -8,10 +8,10 @@
     <br>fournit des services indépendants à des points stratégiques de la chaîne d'approvisionnement de ses clients.</i>
   <br>
   <br> 
-   <img src="./src/assets/image1.JPG" alt="nom des navires" width="25%" height="25%"/>
-   <img src="./src/assets/image2.JPG" alt="nom des navires" width="25%" height="25%"/>
-   <img src="./src/assets/image3.JPG" alt="nom des navires" width="25%" height="25%"/>
-   <img src="./src/assets/image4.JPG" alt="nom des navires" width="25%" height="25%"/>
+   <img src="./src/assets/image1.JPG" alt="nom des navires" width="25%" height="25%"/><br>
+   <img src="./src/assets/image2.JPG" alt="nom des navires" width="25%" height="25%"/><br>
+   <img src="./src/assets/image3.JPG" alt="nom des navires" width="10%" height="10%"/><br>
+   <img src="./src/assets/image4.JPG" alt="nom des navires" width="10%" height="10%"/><br>
 </p>
 
 <p align="center">By:
